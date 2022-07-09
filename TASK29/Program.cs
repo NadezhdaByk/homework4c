@@ -5,8 +5,7 @@ int [] array = new int [8];
 for (int i = 0; i<8; i++)
 {
 array [i] = new Random().Next(-999,999);
-Console.WriteLine(array [i]);
 }
 return array;
 }
-Console.WriteLine(Funct());
+Console.WriteLine(string.Join("|",Funct()));
